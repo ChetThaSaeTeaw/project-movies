@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap');
+
+:root {
+  --fontTH : 'Prompt';
+  --fontEN : 'Roboto', sans-serif;
+  --wrapBgColor : #141413;
+  --blackColor : #0E050F;
+  --purpleHaze : #9388A2;
+  --purpleHazeHover : #6e667a;
+  --purple : #341948;
+  --darkBlue : #170B3B;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--fontTH);
+}
+
+body {
+  background: url("https://images5.alphacoders.com/112/1123013.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  font-family: var(--fontTH);
+}
+
+button {
+  font-family: var(--fontTH);
+}
+
+input::placeholder {
+  font-family: var(--fontTH);
+}

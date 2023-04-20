@@ -1,0 +1,49 @@
+/* Pagination */
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    font-size: 1.2rem;
+    gap : 5px;
+
+    .break {
+        color: var(--purpleHaze);
+    }
+}
+
+.pagination .page-num {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1s all ease-in-out;
+
+    &:hover {
+        background: var(--purpleHazeHover);
+    }
+}
+
+.pagination .active {
+    background: var(--purpleHaze);
+}
+
+
+@media only screen and (min-width:320px) and (max-width : 482px) {
+    /* Pagination */
+    .pagination {
+        margin: 2rem 0;
+        font-size: 1rem;
+        gap : 0px;
+    }
+
+    .pagination .page-num {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+}
+
+
